@@ -1,0 +1,13 @@
+<div>
+  <h3>Angular Material Button Toggle</h3>
+  <div>
+    <h4>Multiple selection</h4>
+    <mat-button-toggle-group #toggleGroup2="matButtonToggleGroup" multiple>
+      <mat-button-toggle value="Angular"> Angular </mat-button-toggle>
+      <mat-button-toggle value="React"> React </mat-button-toggle>
+      <mat-button-toggle value="Vue"> Vue </mat-button-toggle>
+    </mat-button-toggle-group>
+    <br />
+    You have selected : {{ toggleGroup2.value }}
+  </div>
+</div>
